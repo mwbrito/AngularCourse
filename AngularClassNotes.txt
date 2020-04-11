@@ -1,0 +1,27 @@
+Prepare environment
+
+	- Nodejs
+	Install Typescript
+	- npm install -g typescript
+	Install Angular2
+	- npm install -g @angular/cli
+	Check version
+	- ng v
+
+
+Start
+
+	New project
+	- ng new
+	Start "server"
+	- ng serve
+	Create component
+	- ng g c nome-component
+		- ng g component nome-component
+	Compile typescript
+	- tsc nome-arquivo.ts
+	Create module
+	- ng g m nome-modulo
+
+	Install Bootstrap
+	- npm install ngx-bootstrap --save
