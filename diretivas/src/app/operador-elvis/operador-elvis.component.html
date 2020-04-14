@@ -1,0 +1,5 @@
+<h5>Operador Elvis</h5>
+
+<p>Descricao: {{ tarefa.desc }}</p>
+<p>Responsavel: {{ tarefa.responsavel != null ? tarefa.responsavel.nome : '' }}</p>
+<p>Responsavel: {{ tarefa.responsavel?.usuario?.nome }}</p>

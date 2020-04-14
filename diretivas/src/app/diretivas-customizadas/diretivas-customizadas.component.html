@@ -1,0 +1,21 @@
+<p fundoAmarelo>texto com fundo amarelo</p>
+<button fundoAmarelo>Meu botao nao amarelo</button>
+<hr>
+<p highlightMouse>
+    Texto com highlight quando passa o mouse
+</p>
+
+<p [default]="'grey'" [highlight]="'red'">
+    Texto com highlight com cores customizadas
+</p>
+
+<hr>
+
+<div *ngIf="mostrarDiv">
+    Você esta me vendo? Sou o primeiro.
+</div>
+<div *ngElse="mostrarDiv">
+    Você esta me vendo? Sou o segundo.
+</div>
+
+<button (click)="onMostrarDiv()">Mostrar/esconder div</button>

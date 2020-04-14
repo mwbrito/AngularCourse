@@ -24,4 +24,5 @@ Start
 	- ng g m nome-modulo
 
 	Install Bootstrap
-	- npm install ngx-bootstrap --save
+	- npm install bootstrap
+	- "node_modules/bootstrap/dist/css/bootstrap.min.css",
