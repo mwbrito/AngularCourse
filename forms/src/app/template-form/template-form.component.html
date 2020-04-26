@@ -6,7 +6,7 @@
         
         <div class="col-sm-12">
             <input type="text" class="form-control" id="nome" placeholder="Nome" name="nome" [(ngModel)]="usuario.nome" required #nome="ngModel" />
-            
+            <app-campo-control [mostrarErro]="verificaValidTouched(nome)" msgErro="Nome obrigatorio."></app-campo-control>
         </div>
     </div>
 
