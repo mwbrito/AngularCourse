@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { EventEmitter } from 'protractor';
 
 @Component({
+  standalone: false,
   selector: 'app-data-binding',
   templateUrl: './data-binding.component.html',
   styleUrls: ['./data-binding.component.css']

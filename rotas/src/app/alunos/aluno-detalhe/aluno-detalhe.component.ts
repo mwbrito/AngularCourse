@@ -4,6 +4,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { AlunosService } from '../alunos.service';
 
 @Component({
+  standalone: false,
   selector: 'app-aluno-detalhe',
   templateUrl: './aluno-detalhe.component.html',
   styleUrls: ['./aluno-detalhe.component.css']

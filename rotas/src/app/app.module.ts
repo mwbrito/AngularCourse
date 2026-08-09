@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { MaterializeModule } from 'angular2-materialize';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -13,6 +12,7 @@ import { CursoNaoEncontradoComponent } from './cursos/curso-nao-encontrado/curso
 */
 import { AppRoutingModule  } from './app.routing';
 import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 //import { AuthGuardService } from './guards/auth.guard';
 import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao-encontrada.component';
 //import { CursosModule } from './cursos/cursos.module';
@@ -35,6 +35,7 @@ import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao
     //CursosModule,
     //AlunosModule,
     FormsModule,
+    RouterModule,
     AppRoutingModule
   //  routing
   ],

@@ -1,19 +1,10 @@
-<nav *ngIf="mostrarMenu">
-  <div class="nav-wrapper">
-    <a routerLink="" class="brand-logo right">Rotas Ng2</a>
-    <ul id="nav-mobile" class="left hide-on-med-and-down">
-      <li routerLinkActive="active"><a routerLink="">Home</a></li>
-      <li routerLinkActive="active"><a routerLink="/login">Login</a></li>
-      <li routerLinkActive="active"><a routerLink="/cursos" [queryParams]="{ pagina: 1 }">Cursos</a></li>
-      <!--li routerLinkActive="active"><a routerLink="/curso">Curso com Id</a></li-->
-      <li routerLinkActive="active"><a routerLink="/alunos">Alunos</a></li>
-    </ul>
-  </div>
+<nav *ngIf="mostrarMenu" class="topbar">
+  <a routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+  <a routerLink="/login" routerLinkActive="active-link">Login</a>
+  <a routerLink="/cursos" [queryParams]="{ pagina: 1 }" routerLinkActive="active-link">Cursos</a>
+  <a routerLink="/alunos" routerLinkActive="active-link">Alunos</a>
 </nav>
 
 <div class="container">
   <router-outlet></router-outlet>
 </div>
-
-
-<!--[routerLink]="['curso', 'param']"-->

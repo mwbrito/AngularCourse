@@ -1,6 +1,6 @@
 # Forms
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+This project was updated to Angular CLI version 22.1.3.
 
 ## Development server
 

@@ -24,14 +24,9 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/materialize-css/dist/css/materialize.css",
               "src/styles.css"
             ],
-            "scripts": [
-              "./node_modules/jquery/dist/jquery.js",
-              "./node_modules/hammerjs/hammer.js",
-              "./node_modules/materialize-css/dist/js/materialize.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -67,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "rotas:build"
+            "buildTarget": "rotas:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "rotas:build:production"
+              "buildTarget": "rotas:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "rotas:build"
+            "buildTarget": "rotas:build"
           }
         },
         "test": {
@@ -124,6 +119,9 @@
           }
         }
       }
-    }},
-  "defaultProject": "rotas"
+    }
+  },
+  "cli": {
+    "analytics": "20002f2d-4acc-47bb-8e8c-96f63408c287"
+  }
 }

@@ -4,6 +4,7 @@ import { Subscription } from 'rxjs';
 import { CursosService } from '../cursos.service';
 
 @Component({
+  standalone: false,
   selector: 'app-curso-detalhe',
   templateUrl: './curso-detalhe.component.html',
   styleUrls: ['./curso-detalhe.component.css']

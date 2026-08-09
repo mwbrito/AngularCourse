@@ -88,18 +88,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "requests-http:build"
+            "buildTarget": "requests-http:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "requests-http:build:production"
+              "buildTarget": "requests-http:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "requests-http:build"
+            "buildTarget": "requests-http:build"
           }
         },
         "test": {
@@ -145,6 +145,5 @@
           }
         }
       }
-    }},
-  "defaultProject": "requests-http"
+    }}
 }

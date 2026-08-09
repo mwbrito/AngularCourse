@@ -6,6 +6,7 @@ import { IFormCanDeactivate } from 'src/app/guards/form_candeactivete';
 
 
 @Component({
+  standalone: false,
   selector: 'app-aluno-form',
   templateUrl: './aluno-form.component.html',
   styleUrls: ['./aluno-form.component.css']

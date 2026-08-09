@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "pipes:build"
+            "buildTarget": "pipes:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "pipes:build:production"
+              "buildTarget": "pipes:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "pipes:build"
+            "buildTarget": "pipes:build"
           }
         },
         "test": {
@@ -119,6 +119,5 @@
           }
         }
       }
-    }},
-  "defaultProject": "pipes"
+    }}
 }

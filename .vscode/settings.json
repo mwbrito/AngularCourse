@@ -1,0 +1,10 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "npx ng": true,
+        "Set-Item": true,
+        "/^npm ls @angular/core @angular/common @angular/compiler @angular/router --depth=0 ; node -e \"const fs=require\\('fs'\\); const paths=\\['node_modules/@angular/core/primitives/di\\.d\\.ts','node_modules/@angular/common/http/index\\.d\\.ts','node_modules/@angular/router/testing/index\\.d\\.ts'\\]; for \\(const p of paths\\)\\{ console\\.log\\(p, fs\\.existsSync\\(p\\)\\?'exists':'missing'\\); \\}\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

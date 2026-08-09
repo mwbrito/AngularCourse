@@ -7,8 +7,8 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
-    "module": "esnext",
-    "moduleResolution": "node",
+    "module": "es2022",
+    "moduleResolution": "bundler",
     "importHelpers": true,
     "target": "es2015",
     "lib": [

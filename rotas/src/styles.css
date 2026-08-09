@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #222;
+}
+
+.container {
+  padding: 24px;
+}
+
+.topbar {
+  display: flex;
+  gap: 12px;
+  padding: 16px 24px;
+  background: #1976d2;
+}
+
+.topbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.topbar a.active-link {
+  text-decoration: underline;
+}
+

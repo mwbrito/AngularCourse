@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "servicos:build"
+            "buildTarget": "servicos:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "servicos:build:production"
+              "buildTarget": "servicos:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "servicos:build"
+            "buildTarget": "servicos:build"
           }
         },
         "test": {
@@ -119,6 +119,5 @@
           }
         }
       }
-    }},
-  "defaultProject": "servicos"
+    }}
 }

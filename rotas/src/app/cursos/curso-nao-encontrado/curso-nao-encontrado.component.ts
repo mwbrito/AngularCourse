@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'app-curso-nao-encontrado',
   templateUrl: './curso-nao-encontrado.component.html',
   styleUrls: ['./curso-nao-encontrado.component.css']

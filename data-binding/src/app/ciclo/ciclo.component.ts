@@ -3,6 +3,7 @@ import { Component
         , Input} from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'app-ciclo',
   templateUrl: './ciclo.component.html',
   styleUrls: ['./ciclo.component.css']

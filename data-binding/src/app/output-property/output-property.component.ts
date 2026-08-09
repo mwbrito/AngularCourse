@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter, ViewChild, ElementRef } from '@angular/core';
-//import { EventEmitter } from 'protractor';
 
 @Component({
+  standalone: false,
   selector: 'contador',
   templateUrl: './output-property.component.html',
   styleUrls: ['./output-property.component.css']

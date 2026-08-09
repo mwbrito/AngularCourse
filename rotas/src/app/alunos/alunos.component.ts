@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { AlunosService } from './alunos.service';
 
 @Component({
+  standalone: false,
   selector: 'app-alunos',
   templateUrl: './alunos.component.html',
   styleUrls: ['./alunos.component.css']
